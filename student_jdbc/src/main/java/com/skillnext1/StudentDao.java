@@ -16,7 +16,7 @@ public class StudentDao {
     
     private static final String URL = "jdbc:mysql://localhost:3306/skillnext_db";
     private static final String USER = "root";
-    private static final String PASSWORD = "Saisharan@2006"; 
+    private static final String PASSWORD = "Karthik@2106"; 
 
     private Connection getConnection() throws SQLException {
         return DriverManager.getConnection(URL, USER, PASSWORD);
